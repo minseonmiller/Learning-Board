@@ -1,4 +1,10 @@
-Model, View, Viewmodel concept
-
 https://www.youtube.com/watch?v=KB20KgcC5Do
+Model, View, ViewModel concept
+
 https://www.youtube.com/watch?v=C8227y-RBqU
+Model(Data) <--> ViewModel <--> View(DOM)
+ViewModel is similar to Octopus, it is the thing that connects and seperates the model from the view.
+Declarative Bindings: By putting Bindings in HTML(DOM), Knockout connects DOM and ViewModel. (No need to program seperate connections in ViewModel anymore)
+Automatic UI Refresh: Knockout(AKA KO) updates the view sutomatically when the model changes.
+Dependency Tracking: Models can depend on other models, and KO updates it autometically when it changes.
+

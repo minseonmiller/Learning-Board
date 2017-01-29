@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=8lxqWWfoF9Y
+
+Observables are just objects with special functions on them.
+
+Example of Observable to keep track of favorit numbers.
+
+var favNum =ko.observable(42) --> pass in initial value of 42 when we create an observable with Knockout.
+favNum() --> if we want to get 42, just run it without argument.
+
+If I change num to 43, the view have no way of knowing that has been changed.
+We didn't actually run any code yet.
+
+Knockout made you to run a function in order to change the value, so it updates autometically.
+favNum(43) --> it changes value stored in Model and runs some special code to notify Viewmodel and let it know which part of view has to be changed.
+favNum() --> it returns 43
+
+Back before, we had to call view.render() anytime something is changed.

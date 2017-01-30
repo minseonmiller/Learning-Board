@@ -3,7 +3,7 @@ http://learn.knockoutjs.com/#/?tutorial=intro
 
 1. Link KO library in HTML.
 2. Insert binding into HTML tag.
-    ```<p data-bind="text: variable name that holds value in the ViewModel"></p>
+```<p data-bind="text: variable name that holds value in the ViewModel"></p>
 3. ViewModel(Javascript) should have matching value to run it properly. 
       ```function AppViewModel() {
           this.firstName = "Bert";

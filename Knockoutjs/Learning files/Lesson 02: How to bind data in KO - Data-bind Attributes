@@ -5,10 +5,10 @@ http://learn.knockoutjs.com/#/?tutorial=intro
 2. Insert binding into HTML tag.
       <p data-bind="text: variable name that holds value in the ViewModel"></p>
 3. ViewModel(Javascript) should have matching value to run it properly. 
-      ```function AppViewModel() {
+      function AppViewModel() {
           this.firstName = "Bert";
           this.lastName = "Bertington";
       }
 4. ViewModel also should have a line of code to activate KO.
-   ``` // Activates knockout.js
-    ko.applyBindings(new AppViewModel());
+      // Activates knockout.js
+      ko.applyBindings(new AppViewModel());
